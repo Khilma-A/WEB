@@ -1,0 +1,121 @@
+/* C. Latihan metode link style/eksternal style
+h1{
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    text-indent: 30px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: cursive;
+} */
+/* .button {
+    text-decoration: underline;
+    color: lightcoral;
+    transition: color 0.3s;
+} */
+
+/* latihan pseudo class selector */
+/* Arahan
+a:link{
+    color: midnightblue;
+}
+
+a:visited{
+    color: green;
+}
+
+.button a:hover{
+    color: orange;
+}
+
+a:active{
+    color: darkcyan;
+}
+
+.button{
+    border-radius: 5px;
+    border: none;
+    background-color: midnightblue;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+}
+
+.button:hover{
+    background-color: orange;
+}
+
+.button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+} */
+
+/* Mengikuti Contoh Hasil*/
+.button a button{
+    text-decoration: underline; 
+}
+
+.button a button {
+    color: blue; 
+}
+
+.button a button:hover {
+    color: red; 
+}
+
+.button a button:active {
+    color: green; 
+}
+
+.button a button:visited {
+    color: white; 
+}
+
+/* Latihan Pseudo-Class Selector pada Tabel */
+.table {
+    border-collapse: collapse;
+    font-family: Verdana, sans-serif;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table th:first-child, .table td:first-child {
+    width: 50px;
+}
+
+.table th, .table td {
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+.table thead td {
+    background-color: #007BFF;
+    color: white;
+}   
+
+.table tbody tr:nth-child(odd) {
+    background-color: #81CFE0;
+    color: white;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #81CFE0;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #007BFF;
+    color: black;
+}

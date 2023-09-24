@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khilma XI PPLG 5</title>
+    <link rel="shortcut icon" href="Img/pfp.jpg" type="image/x-icon">
+    <style>
+        button{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Latihan Formulir</h1>
+    </center>
+    <form action="#">
+        <fieldset> 
+            <legend align="center">input data</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Nama</label>
+                    </td>
+                    <td>
+                        <label for="">:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nama" placeholder="Masukkan Nama Lengkap">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Password</label>
+                    </td>
+                    <td>
+                        <label for="">:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" placeholder="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Tanggal Lahir</label>
+                    </td>
+                    <td>
+                        <label for="">:</label>
+                    </td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Jenis Kelamin<label>
+                    </td>
+                    <td>
+                        <label for="">:</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="radio1" checked>
+                        <label for="radio1">Laki-laki</label>
+                        <input type="radio" id="radio2">
+                        <label for="radio2">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Nomor Telepon</label>
+                    </td>
+                    <td>
+                        <label for="">:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="nomor-telepon" name="nomor-telepon" pattern="[0-9]" inputmode="numeric" placeholder="Masukkan Nomor Telepon" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Asal Kota<label>
+                    </td>
+                    <td>
+                        <label for="">:</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option value="Purwokerto" selected>Purwokerto</option>
+                            <option value="Purbalingga">Purbalingga</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Alamat<label>
+                    </td>
+                    <td>
+                        <label for="">:</label>
+                    </td>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="10">
+                            Silakan ketikkan isi alamat
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Hobi<label>
+                    </td>
+                    <td>
+                        <label for="">:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="checkbox1">
+                        <label for="checkbox1">Membaca Buku</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="checkbox2" checked>
+                        <label for="checkbox2">Menulis</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="checkbox3">
+                        <label for="checkbox3">Memancing</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Makanan Favorit</label>
+                    </td>
+                    <td>
+                        <label for="">:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Makanan Favorit" list="daftar-makanan" name="makanan">
+                        <datalist id="daftar-makanan">
+                            <option value="Pizza"></option>
+                            <option value="Burger"></option>
+                            <option value="Sushi"></option>
+                            <option value="Pasta"></option>
+                            <option value="Nasi Goreng"></option>
+                        </datalist>
+                    </td>
+                </tr>
+                <br>
+            </table>
+            <div class="button" align="right">
+                <input type="submit" align="center"></input>
+                <input type="reset"align="center"></input>
+            </div>
+        </fieldset>
+        <br>
+        <div class="button" align="center">
+            <button type="reset"align="center">
+                <a href="Halaman-2-latformulir.html">Next Page</a>
+            </button>
+        </div>
+    </form>
+</body>
+</html>
